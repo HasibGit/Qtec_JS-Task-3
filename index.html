@@ -1,0 +1,169 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/journal/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/3568bd6549.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+    <title>JavaScript Task</title>
+  </head>
+  <body>
+
+
+    <div class="container content">
+
+      <div class="row">
+
+        <div class="col-md-8">
+          <div class="container products">
+            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+              <form action="/search" method="post" class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" class="search" name="search" type="search" placeholder="Search products" aria-label="Search">
+              <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            </nav>
+
+            <div class="row">
+
+              <div class="col-md-2 col-sm-4">
+                 <div class="cards mb-3" style="width: 10rem; text-align : center;">
+                   <img class="card-img-top mt-3 itemImage" style="width : 100px; height : 100px" alt="" src="images/shirt.png">
+                   <div class="card-body">
+                      <h5 class="card-title itemName">Orange tshirt</h5>
+                      <p style="display: none" class="itemPrice">3000.00</p>
+                      <a href="#" class="btn btn-success item">ADD</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2 col-sm-4">
+                 <div class="cards mb-3" style="width: 10rem; text-align : center;">
+                   <img class="card-img-top mt-3 itemImage" style="width : 100px; height : 100px" alt="" src="images/shirt2.png">
+                   <div class="card-body">
+                      <h5 class="card-title itemName">Red tshirt</h5>
+                      <p style="display: none" class="itemPrice">2500.00</p>
+                      <a href="#" class="btn btn-success item">ADD</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2 col-sm-4">
+                 <div class="cards mb-3" style="width: 10rem; text-align : center;">
+                   <img class="card-img-top mt-3 itemImage" style="width : 100px; height : 100px" alt="" src="images/shirt3.png">
+                   <div class="card-body">
+                      <h5 class="card-title itemName">Black tshirt</h5>
+                      <p style="display: none" class="itemPrice">3500.00</p>
+                      <a href="#" class="btn btn-success item">ADD</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2 col-sm-4">
+                 <div class="cards mb-3" style="width: 10rem; text-align : center;">
+                   <img class="card-img-top mt-3 itemImage" style="width : 100px; height : 100px" alt="" src="images/shirt4.png">
+                   <div class="card-body">
+                      <h5 class="card-title itemName">Blue tshirt</h5>
+                      <p style="display: none" class="itemPrice">3100.00</p>
+                      <a href="#" class="btn btn-success item">ADD</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2 col-sm-4">
+                 <div class="cards mb-3" style="width: 10rem; text-align : center;">
+                   <img class="card-img-top mt-3 itemImage" style="width : 100px; height : 100px" alt="" src="images/shirt5.png">
+                   <div class="card-body">
+                      <h5 class="card-title itemName">Green tshirt</h5>
+                      <p style="display: none" class="itemPrice">2800.00</p>
+                      <a href="#" class="btn btn-success item">ADD</a>
+                  </div>
+                </div>
+              </div>
+
+
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div class="col-md-4 mt-5">
+
+        <div class="addCustomer">
+          <a href="#"><i class="fas fa-user-plus">Add Customer</i></a>
+        </div>
+
+        <!-- Cart Items -->
+
+        <div class="checkoutColumn">
+
+            <!-- Load product image, name and its price -->
+
+        </div>
+
+
+        <!--Total price-->
+
+        <div class="mt-4 record">
+
+          <div class="row">
+            <div class="col-md-6">
+              <p>Discount</p>
+            </div>
+            <div class="col-md-6">
+              <p>BDT 0.00</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <p>Subtotal</p>
+            </div>
+            <div class="col-md-6">
+              <p class="subtotal">BDT 0.00</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <p>Tax(0%)</p>
+            </div>
+            <div class="col-md-6">
+              <p>BDT 0.00</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <p>Total</p>
+            </div>
+            <div class="col-md-6">
+              <p class="total">BDT 0.00</p>
+            </div>
+          </div>
+
+         <button type="button" name="button" class="btn btn-info btn-block paymentbtn">Pay BDT 0.00</button>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+
+  <script type="text/javascript" src="javascript/script.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
